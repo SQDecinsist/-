@@ -1,0 +1,12 @@
+//
+//  彩票.pch
+//  彩票
+//
+//  Created by Mac on 16/3/26.
+//  Copyright © 2016年 SQ. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import "UIImage+Image.h"
+#import "UIView+Frame.h"
+#endif

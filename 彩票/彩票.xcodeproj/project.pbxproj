@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043A54DA1CAA97CE00AFA4E8 /* SQNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A54D91CAA97CE00AFA4E8 /* SQNewFeatureViewController.m */; };
+		043A54E31CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A54E21CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.m */; };
+		043E95511CAB6FAA006EC717 /* SQsaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95501CAB6FAA006EC717 /* SQsaveTool.m */; };
+		043E95551CAB7310006EC717 /* SQSelectRootTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95541CAB7310006EC717 /* SQSelectRootTool.m */; };
+		043E95601CAB76D6006EC717 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E955C1CAB76D6006EC717 /* MBProgressHUD+XMG.m */; };
+		043E95611CAB76D6006EC717 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 043E955D1CAB76D6006EC717 /* MBProgressHUD.bundle */; };
+		043E95621CAB76D6006EC717 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E955F1CAB76D6006EC717 /* MBProgressHUD.m */; };
+		043E95681CAB77F7006EC717 /* SQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95671CAB77F7006EC717 /* SQSettingViewController.m */; };
+		043E956B1CAB7B69006EC717 /* SQGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E956A1CAB7B69006EC717 /* SQGroupItem.m */; };
+		043E956E1CAB7B89006EC717 /* SQRowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E956D1CAB7B89006EC717 /* SQRowItem.m */; };
+		043E95711CABAE2C006EC717 /* SQSection1PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95701CABAE2C006EC717 /* SQSection1PushViewController.m */; };
+		043E95771CABB643006EC717 /* SQSection2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95761CABB643006EC717 /* SQSection2ViewController.m */; };
+		043E957D1CABBB3A006EC717 /* SQSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E957C1CABBB3A006EC717 /* SQSwitchItem.m */; };
+		043E95831CABBBB7006EC717 /* SQArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95821CABBBB7006EC717 /* SQArrowItem.m */; };
+		043E95861CABBED0006EC717 /* SQSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95851CABBED0006EC717 /* SQSettingTableViewCell.m */; };
+		043E95891CABCEEE006EC717 /* SQSection1-1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E95881CABCEEE006EC717 /* SQSection1-1ViewController.m */; };
+		043E958C1CABD1E7006EC717 /* SQScoreLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E958B1CABD1E7006EC717 /* SQScoreLineViewController.m */; };
+		043E958F1CABE635006EC717 /* SQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E958E1CABE635006EC717 /* SQBaseViewController.m */; };
+		046011EC1CA76BAA00F3E240 /* SQPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046011EA1CA76BAA00F3E240 /* SQPopView.m */; };
+		046011ED1CA76BAA00F3E240 /* SQPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046011EB1CA76BAA00F3E240 /* SQPopView.xib */; };
+		046011F01CA76BC600F3E240 /* SQConverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046011EF1CA76BC600F3E240 /* SQConverView.m */; };
+		0479A4391CA64D27004F6BFF /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0479A4371CA64D27004F6BFF /* __.xcdatamodeld */; };
+		0479A43B1CA64D27004F6BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479A43A1CA64D27004F6BFF /* Assets.xcassets */; };
+		0479A43E1CA64D27004F6BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479A43C1CA64D27004F6BFF /* LaunchScreen.storyboard */; };
+		0479A4491CA64D27004F6BFF /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479A4481CA64D27004F6BFF /* __Tests.m */; };
+		0479A4541CA64D28004F6BFF /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479A4531CA64D28004F6BFF /* __UITests.m */; };
+		0479A4D41CA651B2004F6BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479A4D01CA651B2004F6BFF /* AppDelegate.m */; };
+		0479A4D51CA651B2004F6BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479A4D31CA651B2004F6BFF /* main.m */; };
+		04855D771CA6A25800AB021E /* SQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D761CA6A25800AB021E /* SQTabBarController.m */; };
+		04855D7D1CA6A2BB00AB021E /* SQMylotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D7C1CA6A2BB00AB021E /* SQMylotteryViewController.m */; };
+		04855D801CA6A53900AB021E /* SQArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D7F1CA6A53900AB021E /* SQArenaViewController.m */; };
+		04855D831CA6A57F00AB021E /* SQHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D821CA6A57F00AB021E /* SQHallTableViewController.m */; };
+		04855D861CA6A5D000AB021E /* SQDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D851CA6A5D000AB021E /* SQDiscoverTableViewController.m */; };
+		04855D891CA6A62400AB021E /* SQHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D881CA6A62400AB021E /* SQHistoryTableViewController.m */; };
+		04855D8C1CA6AB6F00AB021E /* SQTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D8B1CA6AB6F00AB021E /* SQTabBarView.m */; };
+		04855D8F1CA6C5FC00AB021E /* SQtabBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D8E1CA6C5FC00AB021E /* SQtabBarBtn.m */; };
+		04855D921CA6CE3800AB021E /* SQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D911CA6CE3800AB021E /* SQNavigationController.m */; };
+		04855D951CA6D6FB00AB021E /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 04855D941CA6D6FB00AB021E /* UIImage+Image.m */; };
+		04DCCE9D1CA944AC005752F8 /* SQMylotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DCCE9C1CA944AC005752F8 /* SQMylotteryViewController.xib */; };
+		04DCCEA01CA94CEF005752F8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCE9F1CA94CEF005752F8 /* UIView+Frame.m */; };
+		04DCCEA31CA96480005752F8 /* SQArenaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCEA21CA96480005752F8 /* SQArenaNavigationController.m */; };
+		04DCCEA51CA96931005752F8 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DCCEA41CA96931005752F8 /* Discovery.storyboard */; };
+		04DCCEA81CA975E5005752F8 /* SQBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCEA71CA975E5005752F8 /* SQBuyViewController.m */; };
+		04DCCEAB1CA97802005752F8 /* SQDisNavTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DCCEAA1CA97802005752F8 /* SQDisNavTitleBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0479A4451CA64D27004F6BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0479A4201CA64D26004F6BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0479A4271CA64D26004F6BFF;
+			remoteInfo = "彩票";
+		};
+		0479A4501CA64D28004F6BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0479A4201CA64D26004F6BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0479A4271CA64D26004F6BFF;
+			remoteInfo = "彩票";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043A54D81CAA97CE00AFA4E8 /* SQNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNewFeatureViewController.h; sourceTree = "<group>"; };
+		043A54D91CAA97CE00AFA4E8 /* SQNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNewFeatureViewController.m; sourceTree = "<group>"; };
+		043A54E11CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		043A54E21CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		043E954F1CAB6FAA006EC717 /* SQsaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQsaveTool.h; sourceTree = "<group>"; };
+		043E95501CAB6FAA006EC717 /* SQsaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQsaveTool.m; sourceTree = "<group>"; };
+		043E95531CAB7310006EC717 /* SQSelectRootTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSelectRootTool.h; sourceTree = "<group>"; };
+		043E95541CAB7310006EC717 /* SQSelectRootTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSelectRootTool.m; sourceTree = "<group>"; };
+		043E955B1CAB76D6006EC717 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		043E955C1CAB76D6006EC717 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		043E955D1CAB76D6006EC717 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		043E955E1CAB76D6006EC717 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		043E955F1CAB76D6006EC717 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		043E95661CAB77F7006EC717 /* SQSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSettingViewController.h; sourceTree = "<group>"; };
+		043E95671CAB77F7006EC717 /* SQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSettingViewController.m; sourceTree = "<group>"; };
+		043E95691CAB7B69006EC717 /* SQGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQGroupItem.h; sourceTree = "<group>"; };
+		043E956A1CAB7B69006EC717 /* SQGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQGroupItem.m; sourceTree = "<group>"; };
+		043E956C1CAB7B89006EC717 /* SQRowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRowItem.h; sourceTree = "<group>"; };
+		043E956D1CAB7B89006EC717 /* SQRowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRowItem.m; sourceTree = "<group>"; };
+		043E956F1CABAE2C006EC717 /* SQSection1PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSection1PushViewController.h; sourceTree = "<group>"; };
+		043E95701CABAE2C006EC717 /* SQSection1PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSection1PushViewController.m; sourceTree = "<group>"; };
+		043E95751CABB643006EC717 /* SQSection2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSection2ViewController.h; sourceTree = "<group>"; };
+		043E95761CABB643006EC717 /* SQSection2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSection2ViewController.m; sourceTree = "<group>"; };
+		043E957B1CABBB3A006EC717 /* SQSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSwitchItem.h; sourceTree = "<group>"; };
+		043E957C1CABBB3A006EC717 /* SQSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSwitchItem.m; sourceTree = "<group>"; };
+		043E95811CABBBB7006EC717 /* SQArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQArrowItem.h; path = ../../../../SQArrowItem.h; sourceTree = "<group>"; };
+		043E95821CABBBB7006EC717 /* SQArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQArrowItem.m; path = ../../../../SQArrowItem.m; sourceTree = "<group>"; };
+		043E95841CABBED0006EC717 /* SQSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSettingTableViewCell.h; sourceTree = "<group>"; };
+		043E95851CABBED0006EC717 /* SQSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSettingTableViewCell.m; sourceTree = "<group>"; };
+		043E95871CABCEEE006EC717 /* SQSection1-1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQSection1-1ViewController.h"; sourceTree = "<group>"; };
+		043E95881CABCEEE006EC717 /* SQSection1-1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQSection1-1ViewController.m"; sourceTree = "<group>"; };
+		043E958A1CABD1E7006EC717 /* SQScoreLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQScoreLineViewController.h; sourceTree = "<group>"; };
+		043E958B1CABD1E7006EC717 /* SQScoreLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQScoreLineViewController.m; sourceTree = "<group>"; };
+		043E958D1CABE635006EC717 /* SQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseViewController.h; sourceTree = "<group>"; };
+		043E958E1CABE635006EC717 /* SQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseViewController.m; sourceTree = "<group>"; };
+		046011E91CA76BAA00F3E240 /* SQPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPopView.h; sourceTree = "<group>"; };
+		046011EA1CA76BAA00F3E240 /* SQPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPopView.m; sourceTree = "<group>"; };
+		046011EB1CA76BAA00F3E240 /* SQPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPopView.xib; sourceTree = "<group>"; };
+		046011EE1CA76BC600F3E240 /* SQConverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQConverView.h; sourceTree = "<group>"; };
+		046011EF1CA76BC600F3E240 /* SQConverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQConverView.m; sourceTree = "<group>"; };
+		0479A4281CA64D26004F6BFF /* 彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0479A4381CA64D27004F6BFF /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
+		0479A43A1CA64D27004F6BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0479A43D1CA64D27004F6BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0479A43F1CA64D27004F6BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479A4441CA64D27004F6BFF /* 彩票Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0479A4481CA64D27004F6BFF /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		0479A44A1CA64D27004F6BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479A44F1CA64D28004F6BFF /* 彩票UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0479A4531CA64D28004F6BFF /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		0479A4551CA64D28004F6BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0479A4CF1CA651B2004F6BFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0479A4D01CA651B2004F6BFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0479A4D31CA651B2004F6BFF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04855D751CA6A25800AB021E /* SQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBarController.h; sourceTree = "<group>"; };
+		04855D761CA6A25800AB021E /* SQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBarController.m; sourceTree = "<group>"; };
+		04855D7B1CA6A2BB00AB021E /* SQMylotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMylotteryViewController.h; sourceTree = "<group>"; };
+		04855D7C1CA6A2BB00AB021E /* SQMylotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMylotteryViewController.m; sourceTree = "<group>"; };
+		04855D7E1CA6A53900AB021E /* SQArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQArenaViewController.h; sourceTree = "<group>"; };
+		04855D7F1CA6A53900AB021E /* SQArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQArenaViewController.m; sourceTree = "<group>"; };
+		04855D811CA6A57F00AB021E /* SQHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQHallTableViewController.h; path = "../../Discover(发现)/Controller/SQHallTableViewController.h"; sourceTree = "<group>"; };
+		04855D821CA6A57F00AB021E /* SQHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQHallTableViewController.m; path = "../../Discover(发现)/Controller/SQHallTableViewController.m"; sourceTree = "<group>"; };
+		04855D841CA6A5D000AB021E /* SQDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDiscoverTableViewController.h; sourceTree = "<group>"; };
+		04855D851CA6A5D000AB021E /* SQDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDiscoverTableViewController.m; sourceTree = "<group>"; };
+		04855D871CA6A62400AB021E /* SQHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHistoryTableViewController.h; sourceTree = "<group>"; };
+		04855D881CA6A62400AB021E /* SQHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHistoryTableViewController.m; sourceTree = "<group>"; };
+		04855D8A1CA6AB6F00AB021E /* SQTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBarView.h; sourceTree = "<group>"; };
+		04855D8B1CA6AB6F00AB021E /* SQTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBarView.m; sourceTree = "<group>"; };
+		04855D8D1CA6C5FB00AB021E /* SQtabBarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQtabBarBtn.h; sourceTree = "<group>"; };
+		04855D8E1CA6C5FC00AB021E /* SQtabBarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQtabBarBtn.m; sourceTree = "<group>"; };
+		04855D901CA6CE3800AB021E /* SQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNavigationController.h; sourceTree = "<group>"; };
+		04855D911CA6CE3800AB021E /* SQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNavigationController.m; sourceTree = "<group>"; };
+		04855D931CA6D6FB00AB021E /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		04855D941CA6D6FB00AB021E /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		04855D961CA6D81F00AB021E /* 彩票.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "彩票.pch"; sourceTree = "<group>"; };
+		04DCCE9C1CA944AC005752F8 /* SQMylotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQMylotteryViewController.xib; sourceTree = "<group>"; };
+		04DCCE9E1CA94CEF005752F8 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		04DCCE9F1CA94CEF005752F8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		04DCCEA11CA96480005752F8 /* SQArenaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQArenaNavigationController.h; sourceTree = "<group>"; };
+		04DCCEA21CA96480005752F8 /* SQArenaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQArenaNavigationController.m; sourceTree = "<group>"; };
+		04DCCEA41CA96931005752F8 /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		04DCCEA61CA975E5005752F8 /* SQBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBuyViewController.h; sourceTree = "<group>"; };
+		04DCCEA71CA975E5005752F8 /* SQBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBuyViewController.m; sourceTree = "<group>"; };
+		04DCCEA91CA97802005752F8 /* SQDisNavTitleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDisNavTitleBtn.h; sourceTree = "<group>"; };
+		04DCCEAA1CA97802005752F8 /* SQDisNavTitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDisNavTitleBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0479A4251CA64D26004F6BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0479A4411CA64D27004F6BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0479A44C1CA64D28004F6BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043A54D41CAA972E00AFA4E8 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				043A54D51CAA972E00AFA4E8 /* Controller */,
+				043A54D61CAA972E00AFA4E8 /* Model */,
+				043A54D71CAA972E00AFA4E8 /* View */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		043A54D51CAA972E00AFA4E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043A54D81CAA97CE00AFA4E8 /* SQNewFeatureViewController.h */,
+				043A54D91CAA97CE00AFA4E8 /* SQNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		043A54D61CAA972E00AFA4E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043A54D71CAA972E00AFA4E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043A54E11CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.h */,
+				043A54E21CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043E954D1CAB6F84006EC717 /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				043E95521CAB7304006EC717 /* selectRootTool(选择根控制器工具) */,
+				043E954E1CAB6F84006EC717 /* saveTool(存储工具类) */,
+			);
+			path = "Tool(工具类)";
+			sourceTree = "<group>";
+		};
+		043E954E1CAB6F84006EC717 /* saveTool(存储工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				043E954F1CAB6FAA006EC717 /* SQsaveTool.h */,
+				043E95501CAB6FAA006EC717 /* SQsaveTool.m */,
+			);
+			path = "saveTool(存储工具类)";
+			sourceTree = "<group>";
+		};
+		043E95521CAB7304006EC717 /* selectRootTool(选择根控制器工具) */ = {
+			isa = PBXGroup;
+			children = (
+				043E95531CAB7310006EC717 /* SQSelectRootTool.h */,
+				043E95541CAB7310006EC717 /* SQSelectRootTool.m */,
+			);
+			path = "selectRootTool(选择根控制器工具)";
+			sourceTree = "<group>";
+		};
+		043E95561CAB76B3006EC717 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				043E95571CAB76B3006EC717 /* Controller */,
+				043E95581CAB76B3006EC717 /* Model */,
+				043E95591CAB76B3006EC717 /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		043E95571CAB76B3006EC717 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043E95661CAB77F7006EC717 /* SQSettingViewController.h */,
+				043E95671CAB77F7006EC717 /* SQSettingViewController.m */,
+				043E95751CABB643006EC717 /* SQSection2ViewController.h */,
+				043E95761CABB643006EC717 /* SQSection2ViewController.m */,
+				043E956F1CABAE2C006EC717 /* SQSection1PushViewController.h */,
+				043E95701CABAE2C006EC717 /* SQSection1PushViewController.m */,
+				043E958A1CABD1E7006EC717 /* SQScoreLineViewController.h */,
+				043E958B1CABD1E7006EC717 /* SQScoreLineViewController.m */,
+				043E95871CABCEEE006EC717 /* SQSection1-1ViewController.h */,
+				043E95881CABCEEE006EC717 /* SQSection1-1ViewController.m */,
+				043E958D1CABE635006EC717 /* SQBaseViewController.h */,
+				043E958E1CABE635006EC717 /* SQBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		043E95581CAB76B3006EC717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043E95691CAB7B69006EC717 /* SQGroupItem.h */,
+				043E956A1CAB7B69006EC717 /* SQGroupItem.m */,
+				043E956C1CAB7B89006EC717 /* SQRowItem.h */,
+				043E956D1CAB7B89006EC717 /* SQRowItem.m */,
+				043E95811CABBBB7006EC717 /* SQArrowItem.h */,
+				043E95821CABBBB7006EC717 /* SQArrowItem.m */,
+				043E957B1CABBB3A006EC717 /* SQSwitchItem.h */,
+				043E957C1CABBB3A006EC717 /* SQSwitchItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043E95591CAB76B3006EC717 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043E95841CABBED0006EC717 /* SQSettingTableViewCell.h */,
+				043E95851CABBED0006EC717 /* SQSettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043E955A1CAB76D5006EC717 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				043E955B1CAB76D6006EC717 /* MBProgressHUD+XMG.h */,
+				043E955C1CAB76D6006EC717 /* MBProgressHUD+XMG.m */,
+				043E955D1CAB76D6006EC717 /* MBProgressHUD.bundle */,
+				043E955E1CAB76D6006EC717 /* MBProgressHUD.h */,
+				043E955F1CAB76D6006EC717 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		0479A41F1CA64D26004F6BFF = {
+			isa = PBXGroup;
+			children = (
+				0479A42A1CA64D26004F6BFF /* 彩票 */,
+				0479A4471CA64D27004F6BFF /* 彩票Tests */,
+				0479A4521CA64D28004F6BFF /* 彩票UITests */,
+				0479A4291CA64D26004F6BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0479A4291CA64D26004F6BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4281CA64D26004F6BFF /* 彩票.app */,
+				0479A4441CA64D27004F6BFF /* 彩票Tests.xctest */,
+				0479A44F1CA64D28004F6BFF /* 彩票UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0479A42A1CA64D26004F6BFF /* 彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4B81CA651B2004F6BFF /* Classes */,
+				0479A43A1CA64D27004F6BFF /* Assets.xcassets */,
+				0479A43C1CA64D27004F6BFF /* LaunchScreen.storyboard */,
+				0479A43F1CA64D27004F6BFF /* Info.plist */,
+				0479A4371CA64D27004F6BFF /* __.xcdatamodeld */,
+				0479A42B1CA64D26004F6BFF /* Supporting Files */,
+			);
+			path = "彩票";
+			sourceTree = "<group>";
+		};
+		0479A42B1CA64D26004F6BFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0479A4471CA64D27004F6BFF /* 彩票Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4481CA64D27004F6BFF /* __Tests.m */,
+				0479A44A1CA64D27004F6BFF /* Info.plist */,
+			);
+			path = "彩票Tests";
+			sourceTree = "<group>";
+		};
+		0479A4521CA64D28004F6BFF /* 彩票UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4531CA64D28004F6BFF /* __UITests.m */,
+				0479A4551CA64D28004F6BFF /* Info.plist */,
+			);
+			path = "彩票UITests";
+			sourceTree = "<group>";
+		};
+		0479A4B81CA651B2004F6BFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				043E95561CAB76B3006EC717 /* Setting(设置) */,
+				043E954D1CAB6F84006EC717 /* Tool(工具类) */,
+				043A54D41CAA972E00AFA4E8 /* NewFeature(新特性) */,
+				0479A4C91CA651B2004F6BFF /* Main */,
+				0479A4C11CA651B2004F6BFF /* Hall(购彩大厅) */,
+				0479A4B91CA651B2004F6BFF /* Arena(竞技场) */,
+				0479A4BD1CA651B2004F6BFF /* Discover(发现) */,
+				0479A4C51CA651B2004F6BFF /* History(开奖信息) */,
+				0479A4CD1CA651B2004F6BFF /* Mylottery(我的彩票) */,
+				0479A4CE1CA651B2004F6BFF /* other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0479A4B91CA651B2004F6BFF /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4BA1CA651B2004F6BFF /* Controller */,
+				0479A4BB1CA651B2004F6BFF /* Model */,
+				0479A4BC1CA651B2004F6BFF /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		0479A4BA1CA651B2004F6BFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04855D7E1CA6A53900AB021E /* SQArenaViewController.h */,
+				04855D7F1CA6A53900AB021E /* SQArenaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0479A4BB1CA651B2004F6BFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0479A4BC1CA651B2004F6BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0479A4BD1CA651B2004F6BFF /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4BE1CA651B2004F6BFF /* Controller */,
+				0479A4BF1CA651B2004F6BFF /* Model */,
+				0479A4C01CA651B2004F6BFF /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		0479A4BE1CA651B2004F6BFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04855D841CA6A5D000AB021E /* SQDiscoverTableViewController.h */,
+				04855D851CA6A5D000AB021E /* SQDiscoverTableViewController.m */,
+				04DCCEA41CA96931005752F8 /* Discovery.storyboard */,
+				04DCCEA61CA975E5005752F8 /* SQBuyViewController.h */,
+				04DCCEA71CA975E5005752F8 /* SQBuyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0479A4BF1CA651B2004F6BFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0479A4C01CA651B2004F6BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DCCEA91CA97802005752F8 /* SQDisNavTitleBtn.h */,
+				04DCCEAA1CA97802005752F8 /* SQDisNavTitleBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0479A4C11CA651B2004F6BFF /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4C21CA651B2004F6BFF /* Controller */,
+				0479A4C31CA651B2004F6BFF /* Model */,
+				0479A4C41CA651B2004F6BFF /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		0479A4C21CA651B2004F6BFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04855D811CA6A57F00AB021E /* SQHallTableViewController.h */,
+				04855D821CA6A57F00AB021E /* SQHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0479A4C31CA651B2004F6BFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0479A4C41CA651B2004F6BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046011EE1CA76BC600F3E240 /* SQConverView.h */,
+				046011EF1CA76BC600F3E240 /* SQConverView.m */,
+				046011E91CA76BAA00F3E240 /* SQPopView.h */,
+				046011EA1CA76BAA00F3E240 /* SQPopView.m */,
+				046011EB1CA76BAA00F3E240 /* SQPopView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0479A4C51CA651B2004F6BFF /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4C61CA651B2004F6BFF /* Controller */,
+				0479A4C71CA651B2004F6BFF /* Model */,
+				0479A4C81CA651B2004F6BFF /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		0479A4C61CA651B2004F6BFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04855D871CA6A62400AB021E /* SQHistoryTableViewController.h */,
+				04855D881CA6A62400AB021E /* SQHistoryTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0479A4C71CA651B2004F6BFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0479A4C81CA651B2004F6BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0479A4C91CA651B2004F6BFF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4CA1CA651B2004F6BFF /* Controller */,
+				0479A4CB1CA651B2004F6BFF /* Model */,
+				0479A4CC1CA651B2004F6BFF /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0479A4CA1CA651B2004F6BFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04855D751CA6A25800AB021E /* SQTabBarController.h */,
+				04855D761CA6A25800AB021E /* SQTabBarController.m */,
+				04855D901CA6CE3800AB021E /* SQNavigationController.h */,
+				04855D911CA6CE3800AB021E /* SQNavigationController.m */,
+				04DCCEA11CA96480005752F8 /* SQArenaNavigationController.h */,
+				04DCCEA21CA96480005752F8 /* SQArenaNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0479A4CB1CA651B2004F6BFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0479A4CC1CA651B2004F6BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04855D8A1CA6AB6F00AB021E /* SQTabBarView.h */,
+				04855D8B1CA6AB6F00AB021E /* SQTabBarView.m */,
+				04855D8D1CA6C5FB00AB021E /* SQtabBarBtn.h */,
+				04855D8E1CA6C5FC00AB021E /* SQtabBarBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0479A4CD1CA651B2004F6BFF /* Mylottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				04855D781CA6A28100AB021E /* Controller */,
+				04855D791CA6A28100AB021E /* Model */,
+				04855D7A1CA6A28100AB021E /* View */,
+			);
+			path = "Mylottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		0479A4CE1CA651B2004F6BFF /* other */ = {
+			isa = PBXGroup;
+			children = (
+				0479A4CF1CA651B2004F6BFF /* AppDelegate.h */,
+				0479A4D01CA651B2004F6BFF /* AppDelegate.m */,
+				04855D961CA6D81F00AB021E /* 彩票.pch */,
+				0479A4D31CA651B2004F6BFF /* main.m */,
+				0479A4D11CA651B2004F6BFF /* Category */,
+				0479A4D21CA651B2004F6BFF /* Lib */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		0479A4D11CA651B2004F6BFF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04855D931CA6D6FB00AB021E /* UIImage+Image.h */,
+				04855D941CA6D6FB00AB021E /* UIImage+Image.m */,
+				04DCCE9E1CA94CEF005752F8 /* UIView+Frame.h */,
+				04DCCE9F1CA94CEF005752F8 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0479A4D21CA651B2004F6BFF /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				043E955A1CAB76D5006EC717 /* MBProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		04855D781CA6A28100AB021E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04855D7B1CA6A2BB00AB021E /* SQMylotteryViewController.h */,
+				04855D7C1CA6A2BB00AB021E /* SQMylotteryViewController.m */,
+				04DCCE9C1CA944AC005752F8 /* SQMylotteryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04855D791CA6A28100AB021E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04855D7A1CA6A28100AB021E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0479A4271CA64D26004F6BFF /* 彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0479A4581CA64D28004F6BFF /* Build configuration list for PBXNativeTarget "彩票" */;
+			buildPhases = (
+				0479A4241CA64D26004F6BFF /* Sources */,
+				0479A4251CA64D26004F6BFF /* Frameworks */,
+				0479A4261CA64D26004F6BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票";
+			productName = "彩票";
+			productReference = 0479A4281CA64D26004F6BFF /* 彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0479A4431CA64D27004F6BFF /* 彩票Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0479A45B1CA64D28004F6BFF /* Build configuration list for PBXNativeTarget "彩票Tests" */;
+			buildPhases = (
+				0479A4401CA64D27004F6BFF /* Sources */,
+				0479A4411CA64D27004F6BFF /* Frameworks */,
+				0479A4421CA64D27004F6BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0479A4461CA64D27004F6BFF /* PBXTargetDependency */,
+			);
+			name = "彩票Tests";
+			productName = "彩票Tests";
+			productReference = 0479A4441CA64D27004F6BFF /* 彩票Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0479A44E1CA64D28004F6BFF /* 彩票UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0479A45E1CA64D28004F6BFF /* Build configuration list for PBXNativeTarget "彩票UITests" */;
+			buildPhases = (
+				0479A44B1CA64D28004F6BFF /* Sources */,
+				0479A44C1CA64D28004F6BFF /* Frameworks */,
+				0479A44D1CA64D28004F6BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0479A4511CA64D28004F6BFF /* PBXTargetDependency */,
+			);
+			name = "彩票UITests";
+			productName = "彩票UITests";
+			productReference = 0479A44F1CA64D28004F6BFF /* 彩票UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0479A4201CA64D26004F6BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SQ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SQ;
+				TargetAttributes = {
+					0479A4271CA64D26004F6BFF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0479A4431CA64D27004F6BFF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0479A4271CA64D26004F6BFF;
+					};
+					0479A44E1CA64D28004F6BFF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0479A4271CA64D26004F6BFF;
+					};
+				};
+			};
+			buildConfigurationList = 0479A4231CA64D26004F6BFF /* Build configuration list for PBXProject "彩票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0479A41F1CA64D26004F6BFF;
+			productRefGroup = 0479A4291CA64D26004F6BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0479A4271CA64D26004F6BFF /* 彩票 */,
+				0479A4431CA64D27004F6BFF /* 彩票Tests */,
+				0479A44E1CA64D28004F6BFF /* 彩票UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0479A4261CA64D26004F6BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DCCEA51CA96931005752F8 /* Discovery.storyboard in Resources */,
+				0479A43E1CA64D27004F6BFF /* LaunchScreen.storyboard in Resources */,
+				0479A43B1CA64D27004F6BFF /* Assets.xcassets in Resources */,
+				04DCCE9D1CA944AC005752F8 /* SQMylotteryViewController.xib in Resources */,
+				046011ED1CA76BAA00F3E240 /* SQPopView.xib in Resources */,
+				043E95611CAB76D6006EC717 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0479A4421CA64D27004F6BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0479A44D1CA64D28004F6BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0479A4241CA64D26004F6BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0479A4D41CA651B2004F6BFF /* AppDelegate.m in Sources */,
+				043E956E1CAB7B89006EC717 /* SQRowItem.m in Sources */,
+				04855D891CA6A62400AB021E /* SQHistoryTableViewController.m in Sources */,
+				043E958F1CABE635006EC717 /* SQBaseViewController.m in Sources */,
+				046011F01CA76BC600F3E240 /* SQConverView.m in Sources */,
+				0479A4D51CA651B2004F6BFF /* main.m in Sources */,
+				043A54DA1CAA97CE00AFA4E8 /* SQNewFeatureViewController.m in Sources */,
+				043E95831CABBBB7006EC717 /* SQArrowItem.m in Sources */,
+				04855D921CA6CE3800AB021E /* SQNavigationController.m in Sources */,
+				043E95891CABCEEE006EC717 /* SQSection1-1ViewController.m in Sources */,
+				04855D861CA6A5D000AB021E /* SQDiscoverTableViewController.m in Sources */,
+				04855D8F1CA6C5FC00AB021E /* SQtabBarBtn.m in Sources */,
+				04DCCEA81CA975E5005752F8 /* SQBuyViewController.m in Sources */,
+				043E95551CAB7310006EC717 /* SQSelectRootTool.m in Sources */,
+				043E95601CAB76D6006EC717 /* MBProgressHUD+XMG.m in Sources */,
+				04DCCEAB1CA97802005752F8 /* SQDisNavTitleBtn.m in Sources */,
+				04855D8C1CA6AB6F00AB021E /* SQTabBarView.m in Sources */,
+				043E957D1CABBB3A006EC717 /* SQSwitchItem.m in Sources */,
+				04DCCEA01CA94CEF005752F8 /* UIView+Frame.m in Sources */,
+				04855D951CA6D6FB00AB021E /* UIImage+Image.m in Sources */,
+				043A54E31CAAC00A00AFA4E8 /* SQNewFeatureCollectionViewCell.m in Sources */,
+				043E95771CABB643006EC717 /* SQSection2ViewController.m in Sources */,
+				043E95511CAB6FAA006EC717 /* SQsaveTool.m in Sources */,
+				043E95621CAB76D6006EC717 /* MBProgressHUD.m in Sources */,
+				04855D831CA6A57F00AB021E /* SQHallTableViewController.m in Sources */,
+				04855D801CA6A53900AB021E /* SQArenaViewController.m in Sources */,
+				04DCCEA31CA96480005752F8 /* SQArenaNavigationController.m in Sources */,
+				043E95861CABBED0006EC717 /* SQSettingTableViewCell.m in Sources */,
+				046011EC1CA76BAA00F3E240 /* SQPopView.m in Sources */,
+				0479A4391CA64D27004F6BFF /* __.xcdatamodeld in Sources */,
+				043E956B1CAB7B69006EC717 /* SQGroupItem.m in Sources */,
+				043E95681CAB77F7006EC717 /* SQSettingViewController.m in Sources */,
+				043E95711CABAE2C006EC717 /* SQSection1PushViewController.m in Sources */,
+				043E958C1CABD1E7006EC717 /* SQScoreLineViewController.m in Sources */,
+				04855D771CA6A25800AB021E /* SQTabBarController.m in Sources */,
+				04855D7D1CA6A2BB00AB021E /* SQMylotteryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0479A4401CA64D27004F6BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0479A4491CA64D27004F6BFF /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0479A44B1CA64D28004F6BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0479A4541CA64D28004F6BFF /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0479A4461CA64D27004F6BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0479A4271CA64D26004F6BFF /* 彩票 */;
+			targetProxy = 0479A4451CA64D27004F6BFF /* PBXContainerItemProxy */;
+		};
+		0479A4511CA64D28004F6BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0479A4271CA64D26004F6BFF /* 彩票 */;
+			targetProxy = 0479A4501CA64D28004F6BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0479A43C1CA64D27004F6BFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0479A43D1CA64D27004F6BFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0479A4561CA64D28004F6BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0479A4571CA64D28004F6BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0479A4591CA64D28004F6BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票/Classes/other/彩票.pch";
+				INFOPLIST_FILE = "彩票/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilireba.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0479A45A1CA64D28004F6BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "彩票/Classes/other/彩票.pch";
+				INFOPLIST_FILE = "彩票/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilireba.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0479A45C1CA64D28004F6BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "彩票Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilireba.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票.app/彩票";
+			};
+			name = Debug;
+		};
+		0479A45D1CA64D28004F6BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "彩票Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilireba.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票.app/彩票";
+			};
+			name = Release;
+		};
+		0479A45F1CA64D28004F6BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "彩票UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilireba.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "彩票";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0479A4601CA64D28004F6BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "彩票UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dilireba.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "彩票";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0479A4231CA64D26004F6BFF /* Build configuration list for PBXProject "彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0479A4561CA64D28004F6BFF /* Debug */,
+				0479A4571CA64D28004F6BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0479A4581CA64D28004F6BFF /* Build configuration list for PBXNativeTarget "彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0479A4591CA64D28004F6BFF /* Debug */,
+				0479A45A1CA64D28004F6BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0479A45B1CA64D28004F6BFF /* Build configuration list for PBXNativeTarget "彩票Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0479A45C1CA64D28004F6BFF /* Debug */,
+				0479A45D1CA64D28004F6BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0479A45E1CA64D28004F6BFF /* Build configuration list for PBXNativeTarget "彩票UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0479A45F1CA64D28004F6BFF /* Debug */,
+				0479A4601CA64D28004F6BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0479A4371CA64D27004F6BFF /* __.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0479A4381CA64D27004F6BFF /* __.xcdatamodel */,
+			);
+			currentVersion = 0479A4381CA64D27004F6BFF /* __.xcdatamodel */;
+			path = __.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0479A4201CA64D26004F6BFF /* Project object */;
+}
